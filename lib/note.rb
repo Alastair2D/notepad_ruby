@@ -10,5 +10,4 @@ class Note
         @body = body
     end
 
-
 end

@@ -21,3 +21,4 @@
         np1.add_note(n1)
         np1.add_note(default_note)
         puts np1.all_notes[1]
+        
