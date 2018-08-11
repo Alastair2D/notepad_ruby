@@ -12,9 +12,10 @@ class Notepad
 
   def add_note(note)
     @all_notes << note
-    @all_titles << @title
-    # @all_bodies << body
-    # @all_notes.push(note)
+    @all_titles << note.title
+    @all_bodies << note.body
+    p note 
   end
+
 
 end
