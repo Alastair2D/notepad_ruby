@@ -12,4 +12,6 @@ describe Note do
         expect(subject.body).to eq "unwritten"
     end    
 
+    
+
 end

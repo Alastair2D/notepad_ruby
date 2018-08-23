@@ -4,8 +4,7 @@ class Note
 
     attr_reader :title, :body
 
-    def initialize(number = 1, title = "untitled", body = "unwritten")
-        @number = number
+    def initialize(title = "untitled", body = "unwritten")
         @title = title
         @body = body
     end
